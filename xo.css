@@ -1,0 +1,30 @@
+body{
+    background-color: rgba(235, 235, 71, 0.525);
+}
+button{
+    background-color: green;
+    color:white;
+    padding: 10px;
+    border:1px solid green;
+    border-radius: 4px;
+}
+.cell{
+    width:75px;
+    height:75px;
+    border:2px solid;
+    line-height: 75px;
+    box-shadow: 0px 0px 0px 2px;
+    font-size: 50px;
+    cursor: pointer;
+    
+}
+#container{
+    text-align: center;
+    font-family:"Permanent Marker",cursive;
+}
+#innerContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width:225px;
+    margin: auto;
+}
